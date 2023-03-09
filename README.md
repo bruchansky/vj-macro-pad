@@ -5,6 +5,8 @@ Get the app for free on the [App Store](https://apps.apple.com/app/immersions-vj
 
 Project homepage: [Immersions VJ](https://bruchansky.name/immersionsvj/)
 
+![Custom VJ Macro Pad](https://github.com/bruchansky/vj-macro-pad/blob/main/immersionsVJ-macropad.gif)
+
 ## Hardware
 - 1 Raspberry Pi Pico (about 5 euros)
 - 1 Pico RGB Keypad Base (Pimoroni, about 20 euros)
@@ -18,12 +20,14 @@ They are easy. Here are the libraries you should have installed on your Pico at 
 - pmk
 
 ## Customization
-Upload the code.py file to the root folder of your Pico.
+Upload the [code.py](https://github.com/bruchansky/vj-macro-pad/blob/main/code.py) file to the root folder of your Pico.
 
 The code:
 - Assigns a function to each key (either when it is pressed once or continuously)
 - Sets colors customised for the Immersions VJ app
 - Animates key colors to reflect their function in the app (e.g. quick flashing light to increase bpm)
+
+![Immersions VJ](https://github.com/bruchansky/vj-macro-pad/blob/main/immersionsvj-app.jpg)
 
 Future improvements:
 - Update pad colors based on the theme and status of the app
